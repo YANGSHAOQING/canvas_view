@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window bktrans="true" gdiplustext="true" roundcorner="6,6" sizebox="5,5,5,5"  showshadow="true" shadowcolor="#ff000000" shadowsize="8" shadowdarkness="20" shadowsharpness="10">
+	<Font shared="false" id="0" name="微软雅黑" size="12" default="true" />
+	<Font shared="false" id="1" name="微软雅黑" size="20" />
+	<Font shared="false" id="2" name="微软雅黑" size="25" />
+	<Font shared="false" id="3" name="微软雅黑" size="30" />
+	<Default name="VScrollBar" value="width=&quot;1&quot; showbutton1=&quot;true&quot; showbutton2=&quot;true&quot; button1normalimage=&quot;file='scroll1.png' source='0,0,8,8'&quot; button1hotimage=&quot;file='scroll1.png' source='0,0,8,8'&quot; button1pushedimage=&quot;file='scroll1.png' source='0,0,8,8'&quot; button2normalimage=&quot;file='scroll1.png' source='0,42,8,50'&quot; button2hotimage=&quot;file='scroll1.png' source='0,42,8,50'&quot; button2pushedimage=&quot;file='scroll1.png' source='0,42,8,50'&quot; thumbnormalimage=&quot;file='scroll1.png' source='0,8,8,25' corner='5,5,5,5' &quot; thumbhotimage=&quot;file='scroll1.png' source='0,8,8,25' corner='5,5,5,5' &quot; thumbpushedimage=&quot;file='scroll1.png' source='0,8,8,25' corner='5,5,5,5'&quot; bknormalimage=&quot;file='scroll1.png' source='0,25,8,42' corner='5,5,5,5' &quot; bkhotimage=&quot;file='scroll1.png' source='0,25,8,42' corner='5,5,5,5'&quot; bkpushedimage=&quot;file='scroll1.png' source='0,25,8,42' corner='5,5,5,5'&quot;" />
+	<Container bkcolor="#01ffffff">
+		<Control name="desktopimage"/>
+		<Control name="desktopmask"/>
+		<VerticalLayout name="canvas_layout" vscrollbar="true">
+			<CanvasContainer name="desktopcanvascontainer" float="false" inset="0,0,0,0" bordersize="0" bo1rdercolor="#0100A200" />
+		</VerticalLayout>
+	</Container>
+
+
+</Window>

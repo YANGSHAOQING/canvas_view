@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{3dc2a878-d0f1-477a-9910-e5d2e2ce3beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{b3dca2fa-90a2-4b14-8e8e-302b8b5d9509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\windows">
+      <UniqueIdentifier>{d884edf3-a9ab-405d-8a28-7a5d92f5f50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controls">
+      <UniqueIdentifier>{5ac2cbd4-b8aa-4707-a166-0a0209385bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{217a7428-6728-4aa5-98f5-7cd06c7e91ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{96acd42e-e312-47c1-842f-dfb19ad4c572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\coordinate_system">
+      <UniqueIdentifier>{df1dba8a-3b5c-4103-9ad6-513acad61fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\task">
+      <UniqueIdentifier>{d73284de-4a33-4d10-9793-8875e760ef1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="app_version.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json-forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="coordinate_system\coordinate_system.h">
+      <Filter>src\coordinate_system</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\arrow_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\diamon_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\ellipse_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\image_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\pencile_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\pen_icon_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\rectangle_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\select_rect_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools_types.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\triangle_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="canvas_view_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="canvas_view.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="console_helper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\canvas_container.h">
+      <Filter>src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\canvas.h">
+      <Filter>src\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\tools_manager.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="task\erase_task_impl.h">
+      <Filter>src\task</Filter>
+    </ClInclude>
+    <ClInclude Include="task\polyline_task_impl.h">
+      <Filter>src\task</Filter>
+    </ClInclude>
+    <ClInclude Include="task\rect_task_impl.h">
+      <Filter>src\task</Filter>
+    </ClInclude>
+    <ClInclude Include="task\select_task_impl.h">
+      <Filter>src\task</Filter>
+    </ClInclude>
+    <ClInclude Include="task\task.h">
+      <Filter>src\task</Filter>
+    </ClInclude>
+    <ClInclude Include="task\text_task_impl.h">
+      <Filter>src\task</Filter>
+    </ClInclude>
+    <ClInclude Include="task\canvas_task_impl.h">
+      <Filter>src\task</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\tools_factory.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\line_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\text_tool.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="windows\main_canvas.h">
+      <Filter>src\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\jsoncpp.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\arrow_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\diamon_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\ellipse_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\image_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\pencile_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\pen_icon_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\rectangle_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\select_rect_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\triangle_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="canvas_view_impl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="canvas_view.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="console_helper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\canvas_container.cpp">
+      <Filter>src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\canvas.cpp">
+      <Filter>src\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\tools_manager.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="task\erase_task_impl.cpp">
+      <Filter>src\task</Filter>
+    </ClCompile>
+    <ClCompile Include="task\polyline_task_impl.cpp">
+      <Filter>src\task</Filter>
+    </ClCompile>
+    <ClCompile Include="task\rect_task_impl.cpp">
+      <Filter>src\task</Filter>
+    </ClCompile>
+    <ClCompile Include="task\select_task_impl.cpp">
+      <Filter>src\task</Filter>
+    </ClCompile>
+    <ClCompile Include="task\task.cpp">
+      <Filter>src\task</Filter>
+    </ClCompile>
+    <ClCompile Include="task\text_task_impl.cpp">
+      <Filter>src\task</Filter>
+    </ClCompile>
+    <ClCompile Include="task\canvas_task_impl.cpp">
+      <Filter>src\task</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\tools_factory.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate_system\coordinate_system.cpp">
+      <Filter>src\coordinate_system</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\line_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\text_tool.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="windows\main_canvas.cpp">
+      <Filter>src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="canvas_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="canvas_view.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
